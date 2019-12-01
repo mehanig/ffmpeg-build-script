@@ -386,6 +386,7 @@ cd $PACKAGES/ffmpeg-6023b9f/ || exit
 	--enable-pthreads \
 	--enable-libvpx \
 	--arch=x86_64 \
+	--disable-lzma \
 	--enable-runtime-cpudetect \
 	--enable-avfilter \
 	--enable-libopencore_amrwb \
